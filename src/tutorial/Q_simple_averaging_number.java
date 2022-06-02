@@ -15,7 +15,7 @@ public class Q_simple_averaging_number {
 		while (counter < 10) {
 			System.out.println("Enter your grade: ");
 			grade = sc.nextInt();
-			total = total + grade;
+			total += grade;
 			counter++;
 			System.out.println(10 - counter + " entries remaining");
 		}
